@@ -1,5 +1,5 @@
-resource "google_compute_instance" "vm-from-tf" {
-  name = "vm-from-tf"
+resource "google_compute_instance" "vm-from-tf-git-jenkins" {
+  name = "vm-from-tf-git-jenkins"
   zone = "asia-southeast1-a"
   machine_type = "n1-standard-1"
   network_interface {
